@@ -1,16 +1,15 @@
-package lesson1.inheritance;
+package lesson1.polimorphisim;
 
 public class Test {
     public static void main(String[] args) {
-        Cat cat=new Cat();
-        cat.setName("Mestan");
-        cat.setAge(1);
-        cat.sound();
+        Cat c1 = new Cat(" c1", 1);
+        Cat c2 = new Cat("c2", 1);
 
-        System.out.println(cat);
+        Fish f1 = new Fish("F1", 2);
+        Fish f2 = new Fish("F2", 2);
 
-        Animal testAnimal = new Animal("Test Animal", 11);
-        System.out.println(testAnimal);
+        Dog d1=new Dog("D1", 4);
+        Dog d2=new Dog("D2", 4);
     }
 
 }

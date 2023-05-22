@@ -1,4 +1,4 @@
-package lesson1.inheritance;
+package lesson1.polimorphisim;
 
 public class Animal {
     private String name;
